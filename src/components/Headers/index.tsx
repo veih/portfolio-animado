@@ -20,11 +20,11 @@ export const Header = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav">
-                            <Link className="nav-link active" to="/home">Home</Link>
+                            <Link className="nav-link" to="/home">Home</Link>
                             <Link className="nav-link" to="/pages/Cocacola">Coca Cola</Link>
                             <Link className="nav-link" to="/pages/Cursos">Cursos</Link>
                             <Link className="nav-link" to="#">Pricing</Link>
-                            <Link className="nav-link disabled" to="#" aria-disabled="true"></Link>
+
                         </div>
                     </div>
                 </div>
