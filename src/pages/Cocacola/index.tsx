@@ -2,7 +2,7 @@ import React from 'react'
 
 import './Cocacola.css'
 
-export const CocaCola = (prosp) => {
+export const CocaCola = () => {
     return (
 
         <div className='cards'>

@@ -1,4 +1,4 @@
-export const Svg = (props) => {
+export const Svg = () => {
     return (
         <div>
             <svg className="svg-container">
