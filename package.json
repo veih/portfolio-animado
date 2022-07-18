@@ -1,15 +1,19 @@
 {
   "name": "portfolio-animado",
   "private": true,
+  "homepage": "https://veih.github.io/portfolio-animado",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
