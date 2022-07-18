@@ -5,10 +5,8 @@ export const Main = () => {
     return (
 
         <main>
-
             <Icons />
             <Svg />
-
         </main>
 
     )
