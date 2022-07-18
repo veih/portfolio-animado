@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 import './Header.css';
 
-export const Header = (props) => {
+export const Header = () => {
     return (
         <header>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
