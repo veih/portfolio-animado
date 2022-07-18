@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 import './Header.css';
@@ -7,15 +8,23 @@ export const Header = () => {
         <header>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid">
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <button
+                        className="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav">
-                            <Link className="nav-link" to="/home">Home</Link>
+                            <Link className="nav-link active" to="/home">Home</Link>
                             <Link className="nav-link" to="/pages/Cocacola">Coca Cola</Link>
                             <Link className="nav-link" to="/pages/Cursos">Cursos</Link>
                             <Link className="nav-link" to="#">Pricing</Link>
+                            <Link className="nav-link disabled" to="#" aria-disabled="true"></Link>
                         </div>
                     </div>
                 </div>
