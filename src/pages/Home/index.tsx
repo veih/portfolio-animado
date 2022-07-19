@@ -1,15 +1,14 @@
 import React from "react"
 
+
+import { Icons } from "../../components/icons"
+import { Svg } from "../../components/Svgs"
+
 export const Home = () => {
     return (
-        <div>
-            <div className="Container ">
-                <div className="">
-                    <h4 className="text-primary ">Espero que esteja procurando um Dev Front-End!</h4>
-                    <p className="text-primary ">Senta-se a vontade para olhar os meus projetos</p>
-                </div>
-
-            </div>
-        </div>
+        <main>
+            <Icons />
+            <Svg />
+        </main>
     )
 }

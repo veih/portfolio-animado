@@ -26,13 +26,13 @@ export const Header = () => {
                                     Projetos
                                 </Link>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <div><Link className="dropdown-item" to="/pages/Cocacola">Coca Cola</Link></div>
+                                    <div><Link className="dropdown-item" to="/portfolio-animado/Cocacola">Coca Cola</Link></div>
                                     <div><Link className="dropdown-item" to="#">Another action</Link></div>
                                     <div><Link className="dropdown-item" to="#">Something else here</Link></div>
                                 </div>
                             </div>
-                            <Link className="nav-link" to="/pages/Cursos">Cursos</Link>
-                            <Link className="nav-link" to="/pages/Cursos">Pricing</Link>
+                            <Link className="nav-link" to="/portfolio-animado/Cursos">Cursos</Link>
+                            <Link className="nav-link" to="/portfolio-animado/Cursos">Pricing</Link>
 
                         </div>
                     </div>

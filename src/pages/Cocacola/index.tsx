@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import './Cocacola.css'
 
@@ -13,7 +14,7 @@ export const CocaCola = () => {
                 <div className="contato">
                     <h1>CocaCola</h1>
                     <p>Para refesca! <br /> A sua bebida favorita.</p>
-                    <a href="#" target="_blank" rel="noopener noreferrer">Explore</a>
+                    <Link to="https://www.coca-cola.com.br/" target="_blank" rel="noopener noreferrer">Explore</Link>
                 </div>
                 <img src="https://veih.github.io/portfolio-animado/assets/cocacola/cocacola2.png" alt="" className="produto" />
             </div>
@@ -24,7 +25,7 @@ export const CocaCola = () => {
                 <div className="contato">
                     <h1>Sprite</h1>
                     <p>Para refesca! <br /> A sua bebida favorita.</p>
-                    <a href="#" target="_blank" rel="noopener noreferrer">Explore</a>
+                    <Link to="#" target="_blank" rel="noopener noreferrer">Explore</Link>
                 </div>
                 <img src="https://veih.github.io/portfolio-animado/assets/cocacola/sprite2.png" alt="" className="produto" />
             </div>
