@@ -8,7 +8,7 @@ import { Home } from "./pages/Home"
 
 export const Routers = () => {
     return useRoutes([
-        { path: "/", element: <Home /> },
+        { path: "/portfolio-animado/", element: <Home /> },
         { path: "/home", element: <Main /> },
         { path: "/pages/Cocacola", element: <CocaCola /> },
         { path: "/pages/Cursos", element: <Cursos /> },
