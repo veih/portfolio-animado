@@ -1,16 +1,17 @@
 import React from "react"
 import { useRoutes } from "react-router-dom"
-import { Main } from "./pages/Mains/index"
 
 import { CocaCola } from "./pages/Cocacola"
 import { Cursos } from "./pages/Cursos"
 import { Home } from "./pages/Home"
+import { Pizzaria } from "./pages/Pizzaria"
 
 export const Routers = () => {
     return useRoutes([
+        { path: "/", element: <Home /> },
         { path: "/portfolio-animado/", element: <Home /> },
-        { path: "/portfolio-animado/Cocacola", element: <CocaCola /> },
-        { path: "/pages/Cursos", element: <Cursos /> },
-    ]
-    )
+        { path: "/Cocacola", element: <CocaCola /> },
+        { path: "/Pizzaria", element: <Pizzaria /> },
+        { path: "/Cursos", element: <Cursos /> },
+    ])
 }
