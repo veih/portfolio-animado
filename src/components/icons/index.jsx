@@ -1,3 +1,5 @@
+import React from "react";
+
 import { IconsCursos } from "../iconsCursos";
 import { IconsRedesSocias } from "../iconsRedesSocias/index";
 

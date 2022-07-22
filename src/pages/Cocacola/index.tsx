@@ -13,7 +13,7 @@ export const CocaCola = () => {
                 </div>
                 <div className="contato">
                     <h1>CocaCola</h1>
-                    <p>Para refesca! <br /> A sua bebida favorita.</p>
+                    <p>Para ...! <br /> A sua bebida favorita.</p>
                     <Link to="https://www.coca-cola.com.br/" target="_blank" rel="noopener noreferrer">Explore</Link>
                 </div>
                 <img src="https://veih.github.io/portfolio-animado/assets/imgCocacola/cocacola2.png" alt="" className="produto" />
@@ -24,7 +24,7 @@ export const CocaCola = () => {
                 </div>
                 <div className="contato">
                     <h1>Sprite</h1>
-                    <p>Para refesca! <br /> A sua bebida favorita.</p>
+                    <p>Para ...! <br /> A sua bebida favorita.</p>
                     <Link to="#" target="_blank" rel="noopener noreferrer">Explore</Link>
                 </div>
                 <img src="https://veih.github.io/portfolio-animado/assets/imgCocacola/sprite2.png" alt="" className="produto" />

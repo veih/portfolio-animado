@@ -30,7 +30,6 @@ export const Header = () => {
                                 </Link>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                     <div><Link className="dropdown-item" to="/Cocacola">Coca Cola</Link></div>
-                                    <div><Link className="dropdown-item" to='/Pizzaria'>Pizzaria</Link></div>
                                     <div><Link className="dropdown-item" to="#">Something else here</Link></div>
                                 </div>
                             </div>

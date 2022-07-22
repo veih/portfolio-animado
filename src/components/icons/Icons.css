@@ -95,5 +95,6 @@ i:hover {
 }
 
 a {
+    margin-bottom: 25px;
     text-decoration: none;
 }
