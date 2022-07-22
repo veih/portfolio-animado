@@ -107,4 +107,112 @@
   }
 }
 
+/* CSS do Sanna e serra*/
+.box {
+  position: relative;
+  width: 400px;
+  height: 300px;
+}
+
+.box span {
+  position: absolute;
+  inset: 0;
+  transition: 0.5s;
+  background: url('./../../../public/assets/Sanna/sanna.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.box span:nth-child(1) {
+  clip-path: polygon(0 0, 50% 0, 50% 50%, 0% 50%);
+  transition-delay: 0.20s;
+}
+
+.box span:nth-child(2) {
+  clip-path: polygon(50% 0, 100% 0, 100% 50%, 50% 50%);
+  transition-delay: 0.25s;
+}
+
+.box span:nth-child(3) {
+  clip-path: polygon(0 50%, 50% 50%, 50% 100%, 0% 100%);
+  transition-delay: 0.5s;
+}
+
+.box span:nth-child(4) {
+  clip-path: polygon(50% 50%, 100% 50%, 100% 100%, 50% 100%);
+  transition-delay: 0.75s;
+}
+
+
+.box:hover span:nth-child(1) {
+  transform: translate(-40px, -40px) rotate(-15deg);
+}
+
+.box:hover span:nth-child(2) {
+  transform: translate(40px, -100px) rotate(25deg);
+}
+
+.box:hover span:nth-child(3) {
+  transform: translate(-40px, 80px) rotate(15deg);
+}
+
+.box:hover span:nth-child(4) {
+  transform: translate(40px, 80px) rotate(-15deg);
+}
+
+.boxr {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  margin-left: 30px;
+}
+
+.boxr span {
+  position: absolute;
+  inset: 0;
+  transition: 0.59s;
+  background: url('./../../../public/assets/Sanna/serra.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.boxr span:nth-child(1) {
+  clip-path: polygon(0 0, 50% 0, 50% 50%, 0% 50%);
+  transition-delay: 0.20s;
+}
+
+.boxr span:nth-child(2) {
+  clip-path: polygon(50% 0, 100% 0, 100% 50%, 50% 50%);
+  transition-delay: 0.25s;
+}
+
+.boxr span:nth-child(3) {
+  clip-path: polygon(0 50%, 50% 50%, 50% 100%, 0% 100%);
+  transition-delay: 0.5s;
+}
+
+.boxr span:nth-child(4) {
+  clip-path: polygon(50% 50%, 100% 50%, 100% 100%, 50% 100%);
+  transition-delay: 0.75s;
+}
+
+.boxr:hover span:nth-child(1) {
+  transform: translate(-40px, -40px) rotate(-15deg);
+}
+
+.boxr:hover span:nth-child(2) {
+  transform: translate(40px, -100px) rotate(25deg);
+}
+
+.boxr:hover span:nth-child(3) {
+  transform: translate(-40px, 80px) rotate(15deg);
+}
+
+.boxr:hover span:nth-child(4) {
+  transform: translate(40px, 80px) rotate(-15deg);
+}
+
 /* Fim do CSS */
