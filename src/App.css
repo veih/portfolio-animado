@@ -118,7 +118,7 @@
   position: absolute;
   inset: 0;
   transition: 0.5s;
-  background: url('./../../../public/assets/Sanna/sanna.jpg');
+  background: url('https://veih.github.io/portfolio-animado/assets/Sanna/sanna.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -173,7 +173,7 @@
   position: absolute;
   inset: 0;
   transition: 0.59s;
-  background: url('./../../../public/assets/Sanna/serra.jpg');
+  background: url('https://veih.github.io/portfolio-animado/assets/Sanna/serra.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
