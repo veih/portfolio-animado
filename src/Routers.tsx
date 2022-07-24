@@ -1,6 +1,7 @@
 import React from "react"
 
 import { useRoutes } from "react-router-dom"
+import { Calculadora } from "./pages/Calculadora"
 import { CocaCola } from "./pages/Cocacola"
 import { Cursos } from "./pages/Cursos"
 import { Home } from "./pages/Home"
@@ -13,6 +14,7 @@ export const Routers = () => {
         { path: "/portfolio-animado/", element: <Home /> },
         { path: "/Cocacola", element: <CocaCola /> },
         { path: "/SannaESerra", element: <SannaESerra /> },
+        { path: "/Calculadora", element: <Calculadora /> },
         { path: "/Cursos", element: <Cursos /> },
     ])
 }
