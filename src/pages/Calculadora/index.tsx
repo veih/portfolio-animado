@@ -10,16 +10,16 @@ export const Calculadora = () => {
     const calculete = () => {
         switch (operacion) {
             case "+":
-                setNum(num2 + num);
+                setNum(parseFloat(num2)  +  parseFloat(num) );
                 break;
             case "-":
-                setNum(num2 - num);
+                setNum(parseFloat(num2)  -  parseFloat(num) );
                 break;
             case "*":
-                setNum(num2 * num);
+                setNum(parseFloat(num2)  *  parseFloat(num) );
                 break;
             case "/":
-                setNum(num2 / num);
+                setNum(parseFloat(num2)  /  parseFloat(num) );
                 break;
             default:
                 break;
