@@ -29,9 +29,10 @@ export const Header = () => {
                                     Projetos
                                 </Link>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <div><Link className="dropdown-item" to="/Cocacola">Coca Cola</Link></div>
-                                    <div><Link className="dropdown-item" to="/SannaESerra">Evantos no Sanna</Link></div>
-                                    <div><Link className="dropdown-item" to="/Calculadora">Calculadora</Link></div>
+                                    <div><Link className="dropdown-item" to="https://veih.github.io/portfolio-animado/Cocacola">Coca Cola</Link></div>
+                                    <div><Link className="dropdown-item" to="https://veih.github.io/portfolio-animado/SannaESerra">Evantos no Sanna</Link></div>
+                                    <div><Link className="dropdown-item" to="https://veih.github.io/portfolio-animado/Calculadora">Calculadora</Link></div>
+                                    <div><Link className="dropdown-item" to="https://veih.github.io/portfolio-animado/Bolhas">Bolhas</Link></div>
                                 </div>
                             </div>
                             <Link className="nav-link" to="/Cursos">Cursos</Link>

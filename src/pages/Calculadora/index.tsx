@@ -1,10 +1,8 @@
-import { type } from "os";
 import React, { useState, useEffect } from "react";
 
 export const Calculadora = () => {
     const [num, setNum] = useState(0);
     const [num2, setNum2] = useState(0);
-    const [result, setResult] = useState(0);
     const [operacion, setOperacion] = useState("");
 
     const calculete = () => {
@@ -30,7 +28,6 @@ export const Calculadora = () => {
     const handleClear = () => {
         setNum(0);
         setNum2(0);
-        setResult(0);
         setOperacion("");
     }
 
@@ -39,7 +36,6 @@ export const Calculadora = () => {
         setNum(0);
         setNum2(num);
         setOperacion(opt);
-
     }
 
     {/* Numaros e operadores da calculadora */ }
