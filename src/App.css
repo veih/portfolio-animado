@@ -426,4 +426,17 @@
   transform: rotate(330deg);
 }
 
+.sabao {
+  animation: sabao 35s linear infinite;
+}
+
+@keyframes sabao {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+}
+
 /* Fim do CSS */
