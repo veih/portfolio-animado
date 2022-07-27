@@ -427,7 +427,7 @@
 }
 
 .sabao {
-  animation: sabao 35s linear infinite;
+  animation: sabao 50s linear infinite;
 }
 
 @keyframes sabao {
