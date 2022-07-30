@@ -8,21 +8,20 @@ export const Calculadora = () => {
     const calculete = () => {
         switch (operacion) {
             case "+":
-                setNum(parseFloat(num2)  +  parseFloat(num) );
+                setNum(parseFloat(num2) + parseFloat(num));
                 break;
             case "-":
-                setNum(parseFloat(num2)  -  parseFloat(num) );
+                setNum(parseFloat(num2) - parseFloat(num));
                 break;
             case "*":
-                setNum(parseFloat(num2)  *  parseFloat(num) );
+                setNum(parseFloat(num2) * parseFloat(num));
                 break;
             case "/":
-                setNum(parseFloat(num2)  /  parseFloat(num) );
+                setNum(parseFloat(num2) / parseFloat(num));
                 break;
             default:
                 break;
         }
-
     }
 
     const handleClear = () => {
