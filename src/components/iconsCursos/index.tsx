@@ -45,7 +45,7 @@ export const IconsCursos = () => {
                     <Modal.Header closeButton>
                     </Modal.Header>
                     <Modal.Body>
-                        <img className="img" src="/public/assets/certificados/certificadoBancodedados.jpg" alt="" />
+                        <img className="img" src="https://veih.github.io/portfolio-animado/assets/certificados/certificadoBancodedados.jpg" alt="" />
                     </Modal.Body>
                     <Modal.Footer>
                         <button className="btn btn-primary" onClick={handleCertificadoDB}>Fechar</button>
@@ -60,7 +60,7 @@ export const IconsCursos = () => {
 
                     </Modal.Header>
                     <Modal.Body>
-                        <img className="img" src="/public/assets/certificados/certificadoHTML5.jpg" alt="" />
+                        <img className="img" src="https://veih.github.io/portfolio-animado/assets/certificados/certificadoHTML5.jpg" alt="" />
                     </Modal.Body>
                     <Modal.Footer>
                         <button className="btn btn-primary" onClick={handleCertificadoHTML}>Fechar</button>
@@ -74,7 +74,7 @@ export const IconsCursos = () => {
 
                     </Modal.Header>
                     <Modal.Body>
-                        <img className="img" src="/public/assets/certificados/certificadoJavascript.jpg" alt="" />
+                        <img className="img" src="https://veih.github.io/portfolio-animado/assets/certificados/certificadoJavascript.jpg" alt="" />
                     </Modal.Body>
                     <Modal.Footer>
                         <button className="btn btn-primary" onClick={handleCertificadoJS}>Fechar</button>
@@ -88,7 +88,7 @@ export const IconsCursos = () => {
 
                     </Modal.Header>
                     <Modal.Body>
-                        <img className="img" src="/public/assets/certificados/certificadoTS.jpg" alt="" />
+                        <img className="img" src="https://veih.github.io/portfolio-animado/assets/certificados/certificadoTS.jpg" alt="" />
                     </Modal.Body>
                     <Modal.Footer>
                         <button className="btn btn-primary" onClick={handleCertificadoTS}>Fechar</button>
@@ -102,7 +102,7 @@ export const IconsCursos = () => {
 
                     </Modal.Header>
                     <Modal.Body>
-                        <img className="img" src="/public/assets/certificados/certificadoReactJS.jpg" alt="" />
+                        <img className="img" src="https://veih.github.io/portfolio-animado/assets/certificados/certificadoReactJS.jpg" alt="" />
                     </Modal.Body>
                     <Modal.Footer>
                         <button className="btn btn-primary" onClick={handleCertificadoReact}>Fechar</button>
@@ -116,7 +116,7 @@ export const IconsCursos = () => {
 
                     </Modal.Header>
                     <Modal.Body>
-                        <img className="img" src="/public/assets/certificados/certificadoBootstrap4.jpg" alt="" />
+                        <img className="img" src="https://veih.github.io/portfolio-animado/assets/certificados/certificadoBootstrap4.jpg" alt="" />
                     </Modal.Body>
                     <Modal.Footer>
                         <button className="btn btn-primary" onClick={handleCertificadoBootstrap}>Fechar</button>
