@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 
 export const AgeisSCRUM = () => {
     const AgeisSCRUM = "Ageis SCRUM";
-    const AgeisSCRUMImg = "https://veih.github.io/portfolio-animado/assets/certificados/AgeisSCRUM.jpg";
+    const AgeisSCRUMImg = "https://veih.github.io/portfolio-animado/assets/certificados/ageisSCRUM.jpg";
 
     const styles = {
         image: {
