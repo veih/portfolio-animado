@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 
 export const JavascriptAssincroo = () => {
     const JavascriptAssincroo = "Javascript Assincroo";
-    const JavascriptAssincrooImg = "/public/assets/certificados/JavascriptAssincroo.jpg";
+    const JavascriptAssincrooImg = "https://veih.github.io/portfolio-animado/assets/certificados/JavascriptAssincroo.jpg";
 
     const styles = {
         image: {

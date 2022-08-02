@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 
 export const JogoDeNaves = () => {
     const JogoDeNaves = "Jogo de Naves";
-    const JogoDeNavesImg = "/public/assets/certificados/JogoDeNaves.jpg";
+    const JogoDeNavesImg = "https://veih.github.io/portfolio-animado/assets/certificados/JogoDeNaves.jpg";
 
     const styles = {
         image: {

@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 
 export const SpaceShooter = () => {
     const SpaceShooter = "Space Shooter";
-    const SpaceShooterImg = "/public/assets/certificados/SpaceShooter.jpg";
+    const SpaceShooterImg = "https://veih.github.io/portfolio-animado/assets/certificados/SpaceShooter.jpg";
 
     const styles = {
         image: {

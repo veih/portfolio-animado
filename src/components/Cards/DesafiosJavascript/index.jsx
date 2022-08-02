@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 
 export const DesafiosJavascript = () => {
     const DesafiosJavascript = "Desafios Javascript";
-    const DesafiosJavascriptImg = "/public/assets/certificados/DesafiosJavascript.jpg";
+    const DesafiosJavascriptImg = "https://veih.github.io/portfolio-animado/assets/certificados/DesafiosJavascript.jpg";
 
     const styles = {
         image: {

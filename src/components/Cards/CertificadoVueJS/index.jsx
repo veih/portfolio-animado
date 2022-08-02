@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 
 export const CertificadoVueJS = () => {
     const certificadoVueJS = "Certificado VueJS";
-    const certificadoVueJSImg = "/public/assets/certificados/certificadoVueJS.jpg";
+    const certificadoVueJSImg = "https://veih.github.io/portfolio-animado/assets/certificados/certificadoVueJS.jpg";
 
     const styles = {
         image: {

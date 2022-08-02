@@ -3,7 +3,7 @@ import { Card } from 'react-bootstrap';
 
 export const CertificadoBancoDados = () => {
     const Banco = 'Curso de Banco de dados';
-    const BancoImg = '/public/assets/certificados/certificadoBancodedados.jpg';
+    const BancoImg = 'https://veih.github.io/portfolio-animado/assets/certificados/certificadoBancodedados.jpg';
 
     const styles = {
         image: {

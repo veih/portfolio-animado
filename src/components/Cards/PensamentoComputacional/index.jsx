@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 
 export const PensamentoComputacional = () => {
     const PensamentoComputacional = "Pensamento Computacional";
-    const PensamentoComputacionalImg = "/public/assets/certificados/PensamentoComputacional.jpg";
+    const PensamentoComputacionalImg = "https://veih.github.io/portfolio-animado/assets/certificados/PensamentoComputacional.jpg";
 
     const styles = {
         image: {

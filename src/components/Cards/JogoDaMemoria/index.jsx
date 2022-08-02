@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 
 export const JogoDaMemoria = () => {
     const JogoDaMemoria = "Jogo da Memoria";
-    const JogoDaMemoriaImg = "/public/assets/certificados/JogoDaMemoria.jpg";
+    const JogoDaMemoriaImg = "https://veih.github.io/portfolio-animado/assets/certificados/JogoDaMemoria.jpg";
 
     const styles = {
         image: {

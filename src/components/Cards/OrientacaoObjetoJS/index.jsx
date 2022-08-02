@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 
 export const OrientacaoObjetoJS = () => {
     const OrientacaoObjetoJS = "Orientação a Objetos";
-    const OrientacaoObjetoJSImg = "/public/assets/certificados/OrientacaoObjetoJS.jpg";
+    const OrientacaoObjetoJSImg = "https://veih.github.io/portfolio-animado/assets/certificados/OrientacaoObjetoJS.jpg";
 
     const styles = {
         image: {

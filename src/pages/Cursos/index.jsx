@@ -42,7 +42,7 @@ export const Cursos = () => {
                 <CertificadoReactJS />
                 <CertificadoTypescript />
                 <DesafiosJavascript />
-                <JavascriptAssincroo /> 
+                <JavascriptAssincroo />
                 <JogoDaMemoria />
                 <JogoDaVelha />
                 <JogoDeNaves />

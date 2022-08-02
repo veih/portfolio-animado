@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 
 export const CertificadoHTML = () => {
     const HTML = "Curso de HTML";
-    const HTMLImg = "/public/assets/certificados/certificadoHTML5.jpg";
+    const HTMLImg = "https://veih.github.io/portfolio-animado/assets/certificados/certificadoHTML5.jpg";
 
     const styles = {
         image: {

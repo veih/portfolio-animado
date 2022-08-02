@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 
 export const PageBootstrap = () => {
     const PageBootstrap = "Page Bootstrap";
-    const PageBootstrapImg = "/public/assets/certificados/PageBootstrap.jpg";
+    const PageBootstrapImg = "https://veih.github.io/portfolio-animado/assets/certificados/PageBootstrap.jpg";
 
     const styles = {
         image: {

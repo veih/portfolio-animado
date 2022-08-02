@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 
 export const CertificadoGitGithub = () => {
     const certificadoGitGithub = "Certificado Git & Github";
-    const certificadoGitGithubImg = "/public/assets/certificados/certificadoGitGithub.jpg";
+    const certificadoGitGithubImg = "https://veih.github.io/portfolio-animado/assets/certificados/certificadoGitGithub.jpg";
 
     const styles = {
         image: {

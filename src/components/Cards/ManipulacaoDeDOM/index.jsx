@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 
 export const ManipulacaoDeDOM = () => {
     const ManipulacaoDeDOM = "Manipulação de DOM";
-    const ManipulacaoDeDOMImg = "/public/assets/certificados/ManipulacaoDeDOM.jpg";
+    const ManipulacaoDeDOMImg = "https://veih.github.io/portfolio-animado/assets/certificados/ManipulacaoDeDOM.jpg";
 
     const styles = {
         image: {

@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 
 export const MapFilterReduce = () => {
     const MapFilterReduce = "Map/Filter/Reduce";
-    const MapFilterReduceImg = "/public/assets/certificados/MapFilterReduce.jpg";
+    const MapFilterReduceImg = "https://veih.github.io/portfolio-animado/assets/certificados/MapFilterReduce.jpg";
 
     const styles = {
         image: {

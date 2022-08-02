@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 
 export const LogicaDeProgramacao = () => {
     const LogicaDeProgramacao = "Logica de Programacao";
-    const LogicaDeProgramacaoImg = "/public/assets/certificados/LogicaDeProgramacao.jpg";
+    const LogicaDeProgramacaoImg = "https://veih.github.io/portfolio-animado/assets/certificados/LogicaDeProgramacao.jpg";
 
     const styles = {
         image: {

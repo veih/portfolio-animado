@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 
 export const CertificadoTypescript = () => {
     const Typescript = "Curso de Typescript";
-    const TypescriptImg = "/public/assets/certificados/certificadoTS.jpg";
+    const TypescriptImg = "https://veih.github.io/portfolio-animado/assets/certificados/certificadoTS.jpg";
 
     const styles = {
         image: {
