@@ -19,10 +19,6 @@ function App() {
       <div className='body bg-pan-bottom'>
         <Routers />
       </div>
-
-      <footer>
-        <Footer />
-      </footer>
     </>
   )
 }
