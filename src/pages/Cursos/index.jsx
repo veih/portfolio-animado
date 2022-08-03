@@ -30,31 +30,32 @@ export const Cursos = () => {
 
     return (
         <div className="container ">
-
-            <div className="certificados row">
-                <CertificadoBancoDados />
-                <CertificadoGitGithub />
-                <CertificadoBootstrap />
-                <CertificadoHTML />
-                <CertificadoJavascript />
-                <CertificadoAngular />
-                <CertificadoVueJS />
-                <CertificadoReactJS />
-                <CertificadoTypescript />
-                <DesafiosJavascript />
-                <JavascriptAssincroo />
-                <JogoDaMemoria />
-                <JogoDaVelha />
-                <JogoDeNaves />
-                <JogoDoDino />
-                <LogicaDeProgramacao />
-                <ManipulacaoDeDOM />
-                <MapFilterReduce />
-                <OrientacaoObjetoJS />
-                <PageBootstrap />
-                <PensamentoComputacional />
-                <SpaceShooter />
-                <AgeisSCRUM />
+            <div className="certificados">
+                <div className="Container row">
+                    <CertificadoBancoDados />
+                    <CertificadoGitGithub />
+                    <CertificadoBootstrap />
+                    <CertificadoHTML />
+                    <CertificadoJavascript />
+                    <CertificadoAngular />
+                    <CertificadoVueJS />
+                    <CertificadoReactJS />
+                    <CertificadoTypescript />
+                    <DesafiosJavascript />
+                    <JavascriptAssincroo />
+                    <JogoDaMemoria />
+                    <JogoDaVelha />
+                    <JogoDeNaves />
+                    <JogoDoDino />
+                    <LogicaDeProgramacao />
+                    <ManipulacaoDeDOM />
+                    <MapFilterReduce />
+                    <OrientacaoObjetoJS />
+                    <PageBootstrap />
+                    <PensamentoComputacional />
+                    <SpaceShooter />
+                    <AgeisSCRUM />
+                </div>
             </div>
 
         </div>
