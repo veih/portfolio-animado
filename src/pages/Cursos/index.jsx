@@ -29,7 +29,7 @@ import './Curso.css'
 export const Cursos = () => {
 
     return (
-        <div className="Container ">
+        <div className="container ">
 
             <div className="certificados row">
                 <CertificadoBancoDados />
