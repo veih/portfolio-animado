@@ -1,11 +1,14 @@
 import React from "react";
-
+import { useEffect, useState } from "react";
 import { Card } from "react-bootstrap";
 
 export const CertificadoTypescript = () => {
+    const [TypescriptImg, setTypescriptImg] = useState([])
     const Typescript = "Curso de Typescript";
-    const TypescriptImg = "https://veih.github.io/portfolio-animado/assets/certificados/certificadoTS.jpg";
-
+   
+    useEffect(() => {
+        setTypescriptImg("https://veih.github.io/portfolio-animado/assets/certificados/certificadoTS.jpg");
+    }, [])
     const styles = {
         image: {
             width: "100%",

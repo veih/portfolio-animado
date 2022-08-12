@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import { Card } from "react-bootstrap";
 
 export const CertificadoReactJS = () => {
+    const [ReactJSImg, setReactJSImg] = useState([]);
     const ReactJS = "Curso de ReactJS";
-    const ReactJSImg = "https://veih.github.io/portfolio-animado/assets/certificados/certificadoReactJS.jpg";
-
+    //const ReactJSImg = "https://veih.github.io/portfolio-animado/assets/certificados/certificadoReactJS.jpg";
+    useEffect(() => {
+        setReactJSImg("https://veih.github.io/portfolio-animado/assets/certificados/certificadoReactJS.jpg");
+    }, []);
     const styles = {
         image: {
             width: "100%",

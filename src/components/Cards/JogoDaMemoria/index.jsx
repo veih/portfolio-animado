@@ -1,10 +1,14 @@
 import React from "react";
-
+import { useEffect, useState } from "react";
 import { Card } from "react-bootstrap";
 
 export const JogoDaMemoria = () => {
+    const [JogoDaMemoriaImg, setJogoDaMemoriaImg] = useState([]);
     const JogoDaMemoria = "Jogo da Memoria";
-    const JogoDaMemoriaImg = "https://veih.github.io/portfolio-animado/assets/certificados/JogoDaMemoria.jpg";
+    
+    useEffect(() => {
+        setJogoDaMemoriaImg("https://veih.github.io/portfolio-animado/assets/certificados/JogoDaMemoria.jpg");
+    }, []);
 
     const styles = {
         image: {

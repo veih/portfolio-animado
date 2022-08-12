@@ -1,10 +1,14 @@
 import React from "react";
-
+import { useEffect, useState } from "react";
 import { Card } from "react-bootstrap";
 
 export const PageBootstrap = () => {
+    const [PageBootstrapImg, setPageBootstrapImg] = useState([]);
     const PageBootstrap = "Page Bootstrap";
-    const PageBootstrapImg = "https://veih.github.io/portfolio-animado/assets/certificados/PageBootstrap.jpg";
+
+    useEffect(() => {
+        setPageBootstrapImg("https://veih.github.io/portfolio-animado/assets/certificados/PageBootstrap.jpg");
+    }, []);
 
     const styles = {
         image: {

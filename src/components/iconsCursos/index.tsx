@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import { Modal } from "react-bootstrap";
 import './IconsCursos.css';
@@ -10,6 +10,7 @@ export const IconsCursos = () => {
     const [certificadoTS, setCertificadoTS] = useState(false);
     const [certificadoReact, setCertificadoReact] = useState(false);
     const [certificadoBootstrap, setCertificadoBootstrap] = useState(false);
+
 
     const handleCertificadoDB = () => {
         setCertificados(!certificados);

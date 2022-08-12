@@ -1,9 +1,15 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
+import { useEffect, useState } from 'react';
 
 export const CertificadoBancoDados = () => {
+    const [BancoImg, setBancoImg] = useState([]);
+
     const Banco = 'Curso de Banco de dados';
-    const BancoImg = 'https://veih.github.io/portfolio-animado/assets/certificados/certificadoBancodedados.jpg';
+    
+    useEffect(() => {
+        setBancoImg('https://veih.github.io/portfolio-animado/assets/certificados/certificadoBancodedados.jpg');
+    }, []);
 
     const styles = {
         image: {

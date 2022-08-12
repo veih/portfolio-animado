@@ -1,10 +1,14 @@
 import React from "react";
-
+import { useEffect, useState } from "react";
 import { Card } from "react-bootstrap";
 
 export const JogoDoDino = () => {
+    const [JogoDoDinoImg, setJogoDoDinoImg] = useState([]);
     const JogoDoDino = "Jogo do Dino";
-    const JogoDoDinoImg = "https://veih.github.io/portfolio-animado/assets/certificados/JogoDoDino.jpg";
+
+    useEffect(() => {
+        setJogoDoDinoImg("https://veih.github.io/portfolio-animado/assets/certificados/JogoDoDino.jpg");
+    }, []);
 
     const styles = {
         image: {

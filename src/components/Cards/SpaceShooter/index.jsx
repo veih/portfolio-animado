@@ -1,11 +1,15 @@
 import React from "react";
-
+import { useEffect, useState } from "react";
 import { Card } from "react-bootstrap";
 
 export const SpaceShooter = () => {
+    const [SpaceShooterImg, setSpaceShooterImg] = useState([]);
     const SpaceShooter = "Space Shooter";
-    const SpaceShooterImg = "https://veih.github.io/portfolio-animado/assets/certificados/SpaceShooter.jpg";
-
+    
+    useEffect(() => {
+        setSpaceShooterImg("https://veih.github.io/portfolio-animado/assets/certificados/SpaceShooter.jpg");
+    }, []);
+    
     const styles = {
         image: {
             width: "100%",

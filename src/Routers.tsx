@@ -9,14 +9,14 @@ import { Home } from "./pages/Home"
 import { SannaESerra } from "./pages/SannaESerra"
 
 export const Routers = () => {
-    
+
     return useRoutes([
         { path: "/", element: <Home /> },
         { path: "/portfolio-animado/", element: <Home /> },
-        { path: "/Cocacola", element: <CocaCola /> },
-        { path: "/SannaESerra", element: <SannaESerra /> },
-        { path: "/Calculadora", element: <Calculadora /> },
-        { path: "/Bolhas", element: <Bolhas /> },
-        { path: "/Cursos", element: <Cursos /> },
+        { path: "/portfolio-animado/Cocacola", element: <CocaCola /> },
+        { path: "/portfolio-animado/SannaESerra", element: <SannaESerra /> },
+        { path: "/portfolio-animado/Calculadora", element: <Calculadora /> },
+        { path: "/portfolio-animado/Bolhas", element: <Bolhas /> },
+        { path: "/portfolio-animado/Cursos", element: <Cursos /> },
     ])
 }

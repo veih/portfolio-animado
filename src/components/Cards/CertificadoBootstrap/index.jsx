@@ -1,11 +1,14 @@
 import React from "react";
-
+import { useEffect, useState } from "react";
 import { Card } from "react-bootstrap";
 
 export const CertificadoBootstrap = () => {
+    const [BootstrapImg, setBootstrapImg] = useState([]);
     const Bootstrap = "Curso de Bootstrap";
-    const BootstrapImg = "https://veih.github.io/portfolio-animado/assets/certificados/certificadoBootstrap4.jpg";
 
+    useEffect(() => {
+        setBootstrapImg("https://veih.github.io/portfolio-animado/assets/certificados/certificadoBootstrap4.jpg");
+    }, []);
     const styles = {
         image: {
             width: "100%",

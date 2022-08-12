@@ -1,10 +1,16 @@
 import React from "react";
+import { useState, useEffect } from "react";
 
 import { Card } from "react-bootstrap";
 
 export const AgeisSCRUM = () => {
+    const [AgeisSCRUMImg, setAgesSCRUMImg] = useState([]);
+
     const AgeisSCRUM = "Ageis SCRUM";
-    const AgeisSCRUMImg = "https://veih.github.io/portfolio-animado/assets/certificados/ageisSCRUM.jpg";
+
+    useEffect(() => {
+        setAgesSCRUMImg('https://veih.github.io/portfolio-animado/assets/certificados/ageisSCRUM.jpg');
+    }, []);
 
     const styles = {
         image: {

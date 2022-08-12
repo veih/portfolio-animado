@@ -1,10 +1,14 @@
 import React from "react";
-
+import { useEffect, useState } from "react";
 import { Card } from "react-bootstrap";
 
 export const PensamentoComputacional = () => {
+    const [PensamentoComputacionalImg, setPensamentoComputacionalImg] = useState([]);
     const PensamentoComputacional = "Pensamento Computacional";
-    const PensamentoComputacionalImg = "https://veih.github.io/portfolio-animado/assets/certificados/PensamentoComputacional.jpg";
+
+    useEffect(() => {
+        setPensamentoComputacionalImg("https://veih.github.io/portfolio-animado/assets/certificados/PensamentoComputacional.jpg");
+    }, []);
 
     const styles = {
         image: {

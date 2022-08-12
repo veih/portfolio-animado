@@ -5,6 +5,8 @@ export const Calculadora = () => {
     const [num2, setNum2] = useState(0);
     const [operacion, setOperacion] = useState("");
 
+    useEffect(() => { }, []);
+
     const calculete = () => {
         switch (operacion) {
             case "+":
@@ -21,13 +23,14 @@ export const Calculadora = () => {
                 break;
             default:
                 break;
+
         }
     }
 
     const handleClear = () => {
         setNum(0);
         setNum2(0);
-        setOperacion("");
+        setOperacion('');
     }
 
     const handleChange = (e) => {
@@ -60,7 +63,7 @@ export const Calculadora = () => {
                         className="value"
                     />
                     <option className="num clear option" onClick={handleClear} value={'c'}>c</option>
-                    <option className="num option" onClick={handleChange} value={'/'}>/</option>
+                    <option className="num option" onClick={handleChange} value={"/"}>/</option>
                     <option className="num option" onClick={handleChange} value={'*'}>*</option>
 
                     <option className="num option" onClick={handleNum} value={7}>7</option>

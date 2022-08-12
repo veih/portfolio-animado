@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import { Card } from "react-bootstrap";
 
 export const CertificadoAngular = () => {
-    const certificadoAngular = "Certificado Angular";
-    const certificadoAngularImg = "https://veih.github.io/portfolio-animado/assets/certificados/certificadoAngular.jpg";
+    const [certificadoAngularImg, setCertificadoAngularImg] = useState([]);
 
+    const certificadoAngular = "Certificado Angular";
+
+    useEffect(() => {
+        setCertificadoAngularImg("https://veih.github.io/portfolio-animado/assets/certificados/certificadoAngular.jpg");
+    }, []);
     const styles = {
         image: {
             width: "100%",

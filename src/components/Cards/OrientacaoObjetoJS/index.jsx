@@ -1,10 +1,14 @@
 import React from "react";
-
+import { useEffect, useState } from "react";
 import { Card } from "react-bootstrap";
 
 export const OrientacaoObjetoJS = () => {
+    const [OrientacaoObjetoJSImg, setOrientacaoObjetoJSImg] = useState([]);
     const OrientacaoObjetoJS = "Orientação a Objetos";
-    const OrientacaoObjetoJSImg = "https://veih.github.io/portfolio-animado/assets/certificados/OrientacaoObjetoJS.jpg";
+   
+    useEffect(() => {
+        setOrientacaoObjetoJSImg("https://veih.github.io/portfolio-animado/assets/certificados/OrientacaoObjetoJS.jpg");
+    }, []);
 
     const styles = {
         image: {

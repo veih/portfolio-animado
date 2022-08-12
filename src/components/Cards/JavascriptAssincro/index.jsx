@@ -1,10 +1,14 @@
 import React from "react";
-
+import { useEffect, useState } from "react";
 import { Card } from "react-bootstrap";
 
 export const JavascriptAssincroo = () => {
+    const [JavascriptAssincrooImg, setJavascriptAssincrooImg] = useState([]);
     const JavascriptAssincroo = "Javascript Assincroo";
-    const JavascriptAssincrooImg = "https://veih.github.io/portfolio-animado/assets/certificados/JavascriptAssincroo.jpg";
+    
+    useEffect(() => {
+        setJavascriptAssincrooImg("https://veih.github.io/portfolio-animado/assets/certificados/JavascriptAssincroo.jpg");
+    }, []);
 
     const styles = {
         image: {

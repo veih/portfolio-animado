@@ -1,10 +1,14 @@
 import React from "react";
-
+import { useEffect, useState } from "react";
 import { Card } from "react-bootstrap";
 
 export const LogicaDeProgramacao = () => {
+    const [LogicaDeProgramacaoImg, setLogicaDeProgramacaoImg] = useState([]);
     const LogicaDeProgramacao = "Logica de Programacao";
-    const LogicaDeProgramacaoImg = "https://veih.github.io/portfolio-animado/assets/certificados/LogicaDeProgramacao.jpg";
+
+    useEffect(() => {
+        setLogicaDeProgramacaoImg("https://veih.github.io/portfolio-animado/assets/certificados/LogicaDeProgramacao.jpg");
+    }, []);
 
     const styles = {
         image: {

@@ -1,10 +1,14 @@
 import React from "react";
-
+import { useEffect, useState } from "react";
 import { Card } from "react-bootstrap";
 
 export const DesafiosJavascript = () => {
+    const [DesafiosJavascriptImg, setDesafiosJavascriptImg] = useState([]);
     const DesafiosJavascript = "Desafios Javascript";
-    const DesafiosJavascriptImg = "https://veih.github.io/portfolio-animado/assets/certificados/DesafiosJavascript.jpg";
+   
+    useEffect(() => {
+        setDesafiosJavascriptImg("https://veih.github.io/portfolio-animado/assets/certificados/DesafiosJavascript.jpg");
+    }, []);
 
     const styles = {
         image: {

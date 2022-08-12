@@ -1,10 +1,14 @@
 import React from "react";
-
+import { useEffect, useState } from "react";
 import { Card } from "react-bootstrap";
 
 export const MapFilterReduce = () => {
+    const [MapFilterReduceImg, setMapFilterReduceImg] = useState([]);
     const MapFilterReduce = "Map/Filter/Reduce";
-    const MapFilterReduceImg = "https://veih.github.io/portfolio-animado/assets/certificados/MapFilterReduce.jpg";
+
+    useEffect(() => {
+        setMapFilterReduceImg("https://veih.github.io/portfolio-animado/assets/certificados/MapFilterReduce.jpg");
+    }, []);
 
     const styles = {
         image: {

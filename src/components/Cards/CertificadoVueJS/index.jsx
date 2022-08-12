@@ -1,10 +1,14 @@
 import React from "react";
-
+import { useEffect, useState } from "react";
 import { Card } from "react-bootstrap";
 
 export const CertificadoVueJS = () => {
+    const [certificadoVueJSImg, setCertificadoVueJSImg] = useState([]);
     const certificadoVueJS = "Certificado VueJS";
-    const certificadoVueJSImg = "https://veih.github.io/portfolio-animado/assets/certificados/certificadoVueJS.jpg";
+
+    useEffect(() => {
+        setCertificadoVueJSImg('https://veih.github.io/portfolio-animado/assets/certificados/certificadoVueJS.jpg');
+    }, []);
 
     const styles = {
         image: {

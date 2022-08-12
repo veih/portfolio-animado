@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import { Card } from "react-bootstrap";
 
 export const CertificadoJavascript = () => {
+    const [JavascriptImg, setJavascriptImg] = useState([]);
     const Javascript = "Curso de Javascript";
-    const JavascriptImg = "https://veih.github.io/portfolio-animado/assets/certificados/certificadoJavascript.jpg";
+    
+    useEffect(() => {
+        setJavascriptImg("https://veih.github.io/portfolio-animado/assets/certificados/certificadoJavascript.jpg");
+    }, []);
 
     const styles = {
         image: {

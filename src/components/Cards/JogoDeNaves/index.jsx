@@ -1,10 +1,14 @@
 import React from "react";
-
+import { useEffect, useState } from "react";
 import { Card } from "react-bootstrap";
 
 export const JogoDeNaves = () => {
+    const [JogoDeNavesImg, setJogoDeNavesImg] = useState([]);
     const JogoDeNaves = "Jogo de Naves";
-    const JogoDeNavesImg = "https://veih.github.io/portfolio-animado/assets/certificados/JogoDeNaves.jpg";
+
+    useEffect(() => {
+        setJogoDeNavesImg("https://veih.github.io/portfolio-animado/assets/certificados/JogoDeNaves.jpg");
+    }, []);
 
     const styles = {
         image: {

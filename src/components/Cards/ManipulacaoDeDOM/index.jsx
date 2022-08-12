@@ -1,10 +1,14 @@
 import React from "react";
-
+import { useEffect, useState } from "react";
 import { Card } from "react-bootstrap";
 
 export const ManipulacaoDeDOM = () => {
+    const [ManipulacaoDeDOMImg, setManipulacaoDeDOMImg] = useState([]);
     const ManipulacaoDeDOM = "Manipulação de DOM";
-    const ManipulacaoDeDOMImg = "https://veih.github.io/portfolio-animado/assets/certificados/ManipulacaoDeDOM.jpg";
+
+    useEffect(() => {
+        setManipulacaoDeDOMImg("https://veih.github.io/portfolio-animado/assets/certificados/ManipulacaoDeDOM.jpg");
+    }, []);
 
     const styles = {
         image: {

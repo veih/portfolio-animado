@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import { Card } from "react-bootstrap";
 
 export const CertificadoGitGithub = () => {
+    const [certificadoGitGithubImg, setcertificadoGitGithubImg] = useState([]);
     const certificadoGitGithub = "Certificado Git & Github";
-    const certificadoGitGithubImg = "https://veih.github.io/portfolio-animado/assets/certificados/certificadoGitGithub.jpg";
 
+    useEffect(() => {
+        setcertificadoGitGithubImg("https://veih.github.io/portfolio-animado/assets/certificados/certificadoGitGithub.jpg");
+    }, []);
     const styles = {
         image: {
             width: "100%",
