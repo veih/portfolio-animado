@@ -1,10 +1,10 @@
 import React from "react";
 
-
+import './style.css';
 export const SannaESerra = () => {
 
     return (
-        <div className="Container">
+        <div className="boxs">
             <div className="box">
                 <span></span>
                 <span></span>

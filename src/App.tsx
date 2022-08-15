@@ -3,7 +3,6 @@ import React from 'react';
 import './App.css';
 
 import { Header } from './components/Headers';
-import { Footer } from './components/Footers'
 import { Routers } from './Routers';
 import { Title } from './components/Titles';
 
