@@ -32,7 +32,8 @@ export const Header = () => {
                                     <div><Link className="dropdown-item" to="/portfolio-animado/Cocacola">Coca Cola</Link></div>
                                     <div><Link className="dropdown-item" to="/portfolio-animado/SannaESerra">Evantos no Sanna</Link></div>
                                     <div><Link className="dropdown-item" to="/portfolio-animado/Calculadora">Calculadora</Link></div>
-                                    <div><Link className="dropdown-item" to="/portfolio-animado/Bolhas">Bolhas</Link></div>
+                                    <div><Link className="dropdown-item" to="/portfolio-animado/Calculadora">Calculadora</Link></div>
+                                    <div><Link className="dropdown-item" to="/portfolio-animado/Todo">Todo</Link></div>
                                 </div>
                             </div>
                             <Link className="nav-link" to="/portfolio-animado/Cursos">Cursos</Link>
