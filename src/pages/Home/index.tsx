@@ -7,8 +7,6 @@ import { Svg } from "../../components/Svgs"
 export const Home = () => {
     return (
         <main>
-            <Icons />
-            <Svg />
         </main>
     )
 }
