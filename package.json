@@ -1,7 +1,8 @@
 {
-  "name": "awesome-portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://veih.github.io/portfolio-animado/",
   "dependencies": {
     "@craco/craco": "^6.2.0",
     "@heroicons/react": "^1.0.3",
