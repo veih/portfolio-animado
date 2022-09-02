@@ -1,58 +1,38 @@
 {
-  "name": "portfolio",
-  "version": "0.1.0",
+  "name": "portfolio-animado",
   "private": true,
   "homepage": "https://veih.github.io/portfolio-animado/",
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@craco/craco": "^6.2.0",
-    "@heroicons/react": "^1.0.3",
-    "@tailwindcss/typography": "^0.4.1",
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "@types/jest": "^26.0.15",
-    "@types/node": "^12.0.0",
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
-    "daisyui": "^1.11.1",
-    "framer-motion": "^4.1.17",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-helmet": "^6.1.0",
-    "react-intersection-observer": "^8.32.0",
-    "react-scripts": "4.0.3",
-    "react-scroll": "^1.8.3",
-    "typescript": "^4.1.2",
-    "web-vitals": "^1.0.1"
-  },
-    "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "@react-icons/all-files": "^4.1.0",
+    "bootstrap": "^5.2.0",
+    "gh-pages": "^4.0.0",
+    "install": "^0.13.0",
+    "npm": "^8.14.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.2.0",
+    "react-fast-marquee": "^1.3.2",
+    "react-icons": "^4.4.0",
+    "react-router-dom": "^6.3.0",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
-    "@types/react-helmet": "^6.1.2",
-    "@types/react-scroll": "^1.8.3",
-    "autoprefixer": "^9",
-    "postcss": "^7",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^14.2.6",
+    "@types/node": "^18.0.6",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0",
+    "vite-svg-loader": "^3.4.0"
   }
 }
