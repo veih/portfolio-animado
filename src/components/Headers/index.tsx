@@ -1,10 +1,8 @@
 import React from 'react';
 
 import { Link } from 'react-router-dom';
-import { IconsRedesSocias } from '../iconsRedesSocias/index';
 
 import './Header.css';
-
 
 export const Header = () => {
     return (

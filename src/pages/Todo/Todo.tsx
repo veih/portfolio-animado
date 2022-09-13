@@ -1,9 +1,11 @@
+import React from "react";
 import{ useState } from "react";
 import { Container } from "react-bootstrap";
 
 import { ListItem } from "../../components/ListItem";
 import { Item } from "../../types/Item";
 import { AddArea } from './../../components/AddArea';
+import './style.css'
 
 export const Todo = () => {
 
@@ -37,7 +39,7 @@ export const Todo = () => {
 
     return (
         <Container>
-            <h1>Lista de Tarefas</h1>
+            <h1 className='listcor' >Lista de Tarefas</h1>
 
             <AddArea onEnter={handleAddTask} />
 

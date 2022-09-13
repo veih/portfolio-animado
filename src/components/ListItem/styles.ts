@@ -29,7 +29,7 @@ export const Container = styled.div(({ done }: ContainerProps)=>(
         border: none;
         border-radius: 5px;
         padding: 5px;
-        color: #20212C;
+        color: #006bc6;
         left: 70%;
     }
 `

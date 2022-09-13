@@ -10,10 +10,8 @@ function App() {
 
   return (
     <>
-      <header>
         <Header />
-        <Title  />
-      </header>
+        <Title title='Portfólio' />
 
       <div className='body bg-pan-bottom'>
         <Routers />
