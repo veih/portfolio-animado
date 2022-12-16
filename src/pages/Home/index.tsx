@@ -1,12 +1,12 @@
-import React from "react"
-import { Icons } from "../../components/icons"
-import { Todo } from "../Todo/Todo"
+import React from "react";
 
 export const Home = () => {
-    return (
-        <main>
-            <Todo />
-            <Icons />
-        </main>
-    )
-}
+  return (
+  <main className="container">
+    <div>de</div>
+    <div>xd</div>
+    <div>xs</div>
+    <div>as</div>
+  </main>
+  )
+};

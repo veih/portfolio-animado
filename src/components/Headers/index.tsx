@@ -28,7 +28,7 @@ export const Header = () => {
                                 </Link>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                     <div><Link className="dropdown-item" to="/portfolio-animado/Cocacola">Coca Cola</Link></div>
-                                    <div><Link className="dropdown-item" to="/portfolio-animado/SannaESerra">Evantos no Sanna</Link></div>
+                                    <div><Link className="dropdown-item" to="/portfolio-animado/SannaESerra">Eventos no Sanna</Link></div>
                                     <div><Link className="dropdown-item" to="/portfolio-animado/Calculadora">Calculadora</Link></div>
                                     <div><Link className="dropdown-item" to="/portfolio-animado/Todo">Todo</Link></div>
                                 </div>

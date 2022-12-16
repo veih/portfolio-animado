@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { Card } from "react-bootstrap";
 
 export const AgeisSCRUM = () => {
-    const [AgeisSCRUMImg, setAgesSCRUMImg] = useState([]);
+    const [AgeisSCRUMImg, setAgesSCRUMImg] = useState();
 
     const AgeisSCRUM = "Ageis SCRUM";
 

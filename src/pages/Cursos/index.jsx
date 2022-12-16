@@ -27,7 +27,7 @@ import { CertificadoVueJS } from "../../components/Cards/certificadoVueJS"
 import './Curso.css'
 
 export const Cursos = () => {
-
+    
     return (
         <div className="container ">
             <div className="certificados">
