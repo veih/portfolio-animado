@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Marquee from 'react-fast-marquee';
+
 import './Footer.css';
 
 export const Footer = () => {
@@ -8,7 +9,7 @@ export const Footer = () => {
     <footer className="footer">
       < Marquee className="h4 text-pop-up-top" >
         <h4>
-          <p className="">&copy; 2022 - Marcelo Evangelista de Oliveira: -°- Desenvolvedor Front-End -°- </p>
+          <p >&copy; 2022 - Marcelo Evangelista de Oliveira: -°- Desenvolvedor Front-End -°- </p>
           <p></p>
         </h4>
       </Marquee>
