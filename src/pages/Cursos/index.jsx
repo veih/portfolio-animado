@@ -24,6 +24,7 @@ import { AgeisSCRUM } from "../../components/Cards/ageisSCRUM"
 import { CertificadoAngular } from "../../components/Cards/certificadoAngular"
 import { CertificadoGitGithub } from "../../components/Cards/certificadoGitGithub"
 import { CertificadoVueJS } from "../../components/Cards/certificadoVueJS"
+
 import './Curso.css'
 
 export const Cursos = () => {
