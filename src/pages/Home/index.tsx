@@ -8,7 +8,7 @@ export const Home = () => {
   return (
     <main className="home">
       <div className="bolhas home-aria">
-        <img src={"https://veih.github.io/portfolio-animado/assets/Sanna/sanna.jpg"} alt="Imagem" />
+        <img src="https://veih.github.io/portfolio-animado/assets/Sanna/sanna.jpg" alt="Imagem" />
         <Span />
       </div>
       <div className="home-primaria">
