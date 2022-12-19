@@ -1,6 +1,6 @@
 .home {
     background: transparent;
-    margin-top: -132px;
+    margin-top: 0px;
     height: 100%;
     width: 100%;
 }
@@ -23,4 +23,8 @@
     flex-direction: column;
     align-items: center;
     max-width: 400px;
+}
+
+.home-primaria p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

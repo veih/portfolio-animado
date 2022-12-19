@@ -1,8 +1,13 @@
+.cert {
+    display: grid;
+    justify-content: center;
+}
+
 .certificados {
     margin-top: 115px;
     margin-bottom: 115px;
     display: flex;
-    text-align: center;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
+

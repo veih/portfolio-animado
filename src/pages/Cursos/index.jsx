@@ -30,32 +30,32 @@ import './Curso.css'
 export const Cursos = () => {
     
     return (
-        <div className="container ">
+        <div className="container cert">
             <div className="certificados">
                 <div className="Container row">
-                    <CertificadoBancoDados />
-                    <CertificadoGitGithub />
-                    <CertificadoBootstrap />
-                    <CertificadoHTML />
-                    <CertificadoJavascript />
-                    <CertificadoAngular />
-                    <CertificadoVueJS />
-                    <CertificadoReactJS />
-                    <CertificadoTypescript />
-                    <DesafiosJavascript />
-                    <JavascriptAssincroo />
-                    <JogoDaMemoria />
-                    <JogoDaVelha />
-                    <JogoDeNaves />
-                    <JogoDoDino />
-                    <LogicaDeProgramacao />
-                    <ManipulacaoDeDOM />
-                    <MapFilterReduce />
-                    <OrientacaoObjetoJS />
-                    <PageBootstrap />
-                    <PensamentoComputacional />
-                    <SpaceShooter />
-                    <AgeisSCRUM />
+                    <span><CertificadoBancoDados /></span>
+                    <span><CertificadoGitGithub /></span>
+                    <span><CertificadoBootstrap /></span>
+                    <span><CertificadoHTML /></span>
+                    <span><CertificadoJavascript /></span>
+                    <span><CertificadoAngular /></span>
+                    <span><CertificadoVueJS /></span>
+                    <span><CertificadoReactJS /></span>
+                    <span><CertificadoTypescript /></span>
+                    <span><DesafiosJavascript /></span>
+                    <span><JavascriptAssincroo /></span>
+                    <span><JogoDaMemoria /></span>
+                    <span><JogoDaVelha /></span>
+                    <span><JogoDeNaves /></span>
+                    <span><JogoDoDino /></span>
+                    <span><LogicaDeProgramacao /></span>
+                    <span><ManipulacaoDeDOM /></span>
+                    <span><MapFilterReduce /></span>
+                    <span><OrientacaoObjetoJS /></span>
+                    <span><PageBootstrap /></span>
+                    <span><PensamentoComputacional /></span>
+                    <span><SpaceShooter /></span>
+                    <span><AgeisSCRUM /></span>
                 </div>
             </div>
 

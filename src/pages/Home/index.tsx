@@ -16,7 +16,7 @@ export const Home = () => {
           <h1>Sobre me:</h1>
           <p>
             Eu sou Marcelo Evangelista de Oliveira. Morador de Fortaleza - Ce,
-            casado e pai de 3 filhos. Meu whatsup: (85)99956 8243.
+            casado e pai de 3 filhos. Meu whats up: (85)99956 8243.
           </p>
           <p>
             Já sou desenvolvedor Front-end a mais de 1 ano, comecei nesse
