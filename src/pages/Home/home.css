@@ -55,7 +55,7 @@
     } 
 }
 
-@media only screen and (max-width: 820px)  {
+@media only screen and (max-width: 620px)  {
     .home-primaria p {
         display: flex;
         justify-content: center;
@@ -65,7 +65,7 @@
     } 
 }
 
-@media only screen and (max-width: 820px)  {
+@media only screen and (max-width: 620px)  {
     .home-primaria h1 {
         display: flex;
         justify-content: center;
