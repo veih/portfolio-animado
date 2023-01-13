@@ -4,46 +4,57 @@
     width: 100%;
 }
 
-@media only screen and (max-width: 600px)  {
-    .home-aria img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 300px;
-        border-radius: 50%;
-        height: 100px;
-        width: 100px;
-    } 
+.book {
+    display: flex;
+    flex-direction: column;
+    transform: rotate3d(1, 1, 1, 21deg);
 }
 
-@media only screen and (max-width: 600px)  {
-    .bolhas {
-        position: relative;
-        display: flex;
-        justify-content: end;
-        border-radius: 50%;
-        height: 100px;
-        width: 100px;
-        margin-left: 150px;
-        margin-bottom: -15%;
-    } 
+.frontCoverFace {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 132px 0 0 403px;
+    border: 2px solid #000;
+    max-width: 251px;
+    min-height: 395px;
+    background-color: brown;
+    box-shadow: 0 1px 3px #cccccc, 0 2px 15px #cccccc, 0 3px 20px #cccccc, 0 4px 25px #cccccc, 0 50px 30px rgb(0 0 0 / 30%);
 }
 
-@media only screen and (max-width: 620px)  {
-    .home-primaria p {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 80%;
-        margin-left: 20px;
-    } 
+.frontCoverOut {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -398px 0 0 398px;
+    max-width: 251px;
+    min-height: 402px;
+    color: #006bc6;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    border: 2px solid #000;
+    background-color: brown;
+    box-shadow: 0 1px 3px 
+    #cccccc, 0 2px 15px 
+    #cccccc, 0 3px 20px 
+    #cccccc, 0 4px 25px 
+    #cccccc, 0 50px 30px 
+    rgb(0 0 0 / 30%);
 }
 
-@media only screen and (max-width: 620px)  {
-    .home-primaria h1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 90px;
-    } 
+.leaf {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .190px solid #000;
+    margin: -400px 0 0 401px;
+    max-width: 251px;
+    min-height: 395px;
+    background-color: rgb(252, 246, 246);
+    /*box-shadow: 0 1px 3px #cccccc, 0 2px 15px #cccccc, 0 3px 20px #cccccc, 0 4px 25px #cccccc, 0 50px 30px rgb(0 0 0 / 30%);*/
 }
+
+
+
