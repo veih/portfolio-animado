@@ -16,6 +16,6 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["portifolio/.github/workflows/src", "public/main.tsx"],
+  "include": ["portfolio/.github/workflows/src", "public/main.tsx"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

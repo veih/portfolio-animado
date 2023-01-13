@@ -25,12 +25,12 @@ export const Container = styled.div(({ done }: ContainerProps)=>(
     }
 
     button {
-        position: absolute;
+        position: relative;
         border: none;
         border-radius: 5px;
         padding: 5px;
         color: #006bc6;
-        left: 70%;
+        left: 77%;
     }
 `
 ));

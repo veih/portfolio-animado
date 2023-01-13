@@ -5,7 +5,6 @@ import "./App.css";
 import { Header } from "./components/Headers";
 import { Routers } from "./Routers";
 import { Title } from "./components/Titles";
-import { Footer } from "./components/Footers";
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
       <div className="body bg-pan-bottom">
         <Routers />
       </div>
-      <Footer />
     </>
   );
 }

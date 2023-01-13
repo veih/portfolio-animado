@@ -38,13 +38,13 @@ export const Todo = () => {
     }
 
     return (
-        <Container>
+        <Container className="todo">
             <h1 className='listcor' >Lista de Tarefas</h1>
 
             <AddArea onEnter={handleAddTask} />
 
             {list.map((item, index) => (
-                <ListItem
+                <ListItem 
                     key={index}
                     item={item}
                     onChange={handleTaskChange}
