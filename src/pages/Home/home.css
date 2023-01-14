@@ -19,7 +19,7 @@
     margin: 132px 0 0 403px;
     border: 2px solid #000;
     max-width: 251px;
-    min-height: 395px;
+    min-height:  404px;
     background-color: #6610f2;
     transform: rotate3d(1, 1, 1, 21deg);
     box-shadow: 0 1px 3px #cccccc, 0 2px 15px #cccccc, 0 3px 20px #cccccc, 0 4px 25px #cccccc, 0 50px 30px rgb(0 0 0 / 30%);
@@ -73,9 +73,9 @@
     align-items: center;
     border: 2px solid #6610f2;
     border-right: none;
-    margin: -457px 0 0 163px;
+    margin: -455px 0 0 158px;
     max-width: 251px;
-    min-height: 400px;
+    min-height: 407px;
     background-color: rgb(245, 241, 241);
     transform: rotate3d(1, 1, 1, 21deg);
     box-shadow: 0 1px 3px #cccccc, 0 2px 15px #cccccc, 0 3px 20px #cccccc, 0 4px 25px #cccccc, 0 50px 30px rgb(0 0 0 / 30%);
@@ -109,5 +109,42 @@
     padding-left: 10px;
 }
 
+@media all and (max-width : 480px) {
+    .frontCoverFace {
+        margin: 132px 0 0 130px;
+        max-width: 151px;
+        min-height: 304px;
+    }
 
+    .frontCoverOut {
+        margin: -298px 0 0 126px;
+        max-width: 151px;
+        min-height: 304px;
+        
+    }
 
+    .frontCoverOut p {
+        margin-left: 18px;
+        font-size: 20px;
+    }
+    .frontCoverOut #dev {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #006bc6;
+        height: 100px;
+        border-top-left-radius: 50%;
+    }
+
+    .frontCoverOutFlip {
+        margin: -331px 0 0 -22px;
+        max-width: 151px;
+        min-height: 315px;
+    }
+
+    .leaf {
+        margin: -302px 0 0 125px;
+        max-width: 151px;
+        min-height: 298px;
+    }
+}
