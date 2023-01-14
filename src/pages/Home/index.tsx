@@ -29,7 +29,7 @@ export const Home = () => {
         <div className="leaf">
           <h6>Marcelo Evangelista de Oliveira</h6>
           <h6>Desenvolvedor Front - End</h6>
-          <span>
+          <span id="header">
             <Header />
           </span>
           <span>

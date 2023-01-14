@@ -120,7 +120,6 @@
         margin: -298px 0 0 126px;
         max-width: 151px;
         min-height: 304px;
-        
     }
 
     .frontCoverOut p {
@@ -146,5 +145,9 @@
         margin: -302px 0 0 125px;
         max-width: 151px;
         min-height: 298px;
+    }
+
+    .leaf h6 {
+        display: none;
     }
 }
