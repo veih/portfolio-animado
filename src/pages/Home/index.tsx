@@ -1,21 +1,20 @@
 import React from "react";
 import { useState } from "react";
 
+import { Header } from './../../components/Headers'
+
 import "./home.css";
 
 export const Home = () => {
   const [id, setId] = useState("frontCoverOut");
 
   const handleFlip = () => {
-    
     if (id === "frontCoverOutFlip") {
       setId("frontCoverOut");
     } else {
       setId("frontCoverOutFlip");
     }
   };
-
-  const handleFlipOut = () => {};
 
   return (
     <main className="home">
@@ -25,7 +24,7 @@ export const Home = () => {
         <div className="leaf"></div>
         <div className="leaf"></div>
         <div className="leaf"></div>
-        <div className="leaf">5</div>
+        <div className="leaf"><Header /></div>
         <div className={id} onClick={handleFlip}></div>
       </div>
 
