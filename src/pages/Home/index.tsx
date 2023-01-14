@@ -38,7 +38,7 @@ export const Home = () => {
           Redes socias
         </div>
         <div className={id} onClick={handleFlip}>
-          <p > Nos tornamaos o que desejamos ser </p>
+          <p> Nos tornamaos o que desejamos ser! 😉 </p>
           <h1 id="dev">Dev</h1>
         </div>
       </div>
