@@ -20,13 +20,14 @@
     border: 2px solid #000;
     max-width: 251px;
     min-height: 395px;
-    background-color: brown;
+    background-color: #6610f2;
     transform: rotate3d(1, 1, 1, 21deg);
     box-shadow: 0 1px 3px #cccccc, 0 2px 15px #cccccc, 0 3px 20px #cccccc, 0 4px 25px #cccccc, 0 50px 30px rgb(0 0 0 / 30%);
 }
 
 .frontCoverOut {
     cursor: pointer;
+    font-size: 18px;
     position: relative;
     transition: 0.101s ease-in-out;
     display: flex;
@@ -35,10 +36,11 @@
     margin: -400px 0 0 398px;
     max-width: 251px;
     min-height: 397px;
-    color: #006bc6;
+    color: rgb(245, 241, 241);
     font-family: 'Oleo Script Swash Caps', cursive;
-    border: 2px solid #000;
-    background-color: brown;
+    border: 2px solid #230355;
+    border-left: none;
+    background-color: #6610f2;
     transform: rotate3d(1, 1, 1, 21deg);
     box-shadow: 0 1px 3px 
     #cccccc, 0 2px 15px 
@@ -48,14 +50,28 @@
     rgb(0 0 0 / 30%);
 }
 
+.frontCoverOut p {
+    margin-left: 18px;
+    font-size: 20px;
+}
+ .frontCoverOut #dev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #006bc6;
+    height: 100px;
+    border-top-left-radius: 50%;
+}
+
 .frontCoverOutFlip {
     cursor: pointer;
+    color:rgb(245, 241, 241);
     transition: 0.15s ease-in-out;
     transform-style: preserve-3d;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid brown;
+    border: 2px solid #6610f2;
     border-right: none;
     margin: -457px 0 0 163px;
     max-width: 251px;
@@ -69,7 +85,9 @@
     position: relative;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
+    color: #006bc6;
     border: .190px solid #000;
     margin: -400px 0 0 399px;
     max-width: 251px;
@@ -79,8 +97,16 @@
     /*box-shadow: 0 1px 3px #cccccc, 0 2px 15px #cccccc, 0 3px 20px #cccccc, 0 4px 25px #cccccc, 0 50px 30px rgb(0 0 0 / 30%);*/
 }
 
-.leaf header {
-    max-width: 400px;
+.leaf span {
+  display: flex;
+  justify-content: center;
+  font-size: 8px;
+  margin-top: 30px;
+    
+}
+
+.bi {
+    padding-left: 10px;
 }
 
 
