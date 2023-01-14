@@ -7,8 +7,9 @@
 .book {
     display: flex;
     flex-direction: column;
-    transform: rotate3d(1, 1, 1, 21deg);
+    margin: 0 10% ;
 }
+
 
 .frontCoverFace {
     position: relative;
@@ -20,6 +21,7 @@
     max-width: 251px;
     min-height: 395px;
     background-color: brown;
+    transform: rotate3d(1, 1, 1, 21deg);
     box-shadow: 0 1px 3px #cccccc, 0 2px 15px #cccccc, 0 3px 20px #cccccc, 0 4px 25px #cccccc, 0 50px 30px rgb(0 0 0 / 30%);
 }
 
@@ -28,13 +30,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: -398px 0 0 398px;
+    margin: -400px 0 0 398px;
     max-width: 251px;
-    min-height: 402px;
+    min-height: 397px;
     color: #006bc6;
     font-family: 'Oleo Script Swash Caps', cursive;
     border: 2px solid #000;
     background-color: brown;
+    transform: rotate3d(1, 1, 1, 21deg);
     box-shadow: 0 1px 3px 
     #cccccc, 0 2px 15px 
     #cccccc, 0 3px 20px 
@@ -43,15 +46,32 @@
     rgb(0 0 0 / 30%);
 }
 
+.frontCoverOutFlip {
+    transition: cubic-bezier(0.075, 0.82, 0.165, 12) ease-in-out;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid brown;
+    border-right: none;
+    margin: -457px 0 0 163px;
+    max-width: 251px;
+    min-height: 400px;
+    background-color: rgb(245, 241, 241);
+    transform: rotate3d(1, 1, 1, 21deg);
+    box-shadow: 0 1px 3px #cccccc, 0 2px 15px #cccccc, 0 3px 20px #cccccc, 0 4px 25px #cccccc, 0 50px 30px rgb(0 0 0 / 30%);
+}
+
 .leaf {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     border: .190px solid #000;
-    margin: -400px 0 0 401px;
+    margin: -400px 0 0 399px;
     max-width: 251px;
-    min-height: 395px;
+    min-height: 398px;
+    transform: rotate3d(1, 1, 1, 21deg);
     background-color: rgb(252, 246, 246);
     /*box-shadow: 0 1px 3px #cccccc, 0 2px 15px #cccccc, 0 3px 20px #cccccc, 0 4px 25px #cccccc, 0 50px 30px rgb(0 0 0 / 30%);*/
 }
