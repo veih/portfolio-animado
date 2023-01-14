@@ -81,6 +81,10 @@
     box-shadow: 0 1px 3px #cccccc, 0 2px 15px #cccccc, 0 3px 20px #cccccc, 0 4px 25px #cccccc, 0 50px 30px rgb(0 0 0 / 30%);
 }
 
+.frontCoverOutFlip #header {
+    display: none;
+}
+
 .leaf {
     position: relative;
     display: flex;

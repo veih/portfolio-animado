@@ -29,7 +29,7 @@ export const Home = () => {
         <div className="leaf">
           <h6>Marcelo Evangelista de Oliveira</h6>
           <h6>Desenvolvedor Front - End</h6>
-          <span id="header">
+          <span >
             <Header />
           </span>
           <span>
@@ -38,7 +38,7 @@ export const Home = () => {
           Redes socias
         </div>
         <div className={id} onClick={handleFlip}>
-          <p> Nos tornamaos o que desejamos ser! 😉 </p>
+          <p> Nos tornamaos o que desejamos ser! <span id="header">😉</span> </p>
           <h1 id="dev">Dev</h1>
         </div>
       </div>
