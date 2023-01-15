@@ -20,7 +20,7 @@
     border: 2px solid #000;
     max-width: 251px;
     min-height:  404px;
-    background-color: #6610f2;
+    background-color: #bebdbe;
     transform: rotate3d(1, 1, 1, 21deg);
     box-shadow: 0 1px 3px #cccccc, 0 2px 15px #cccccc, 0 3px 20px #cccccc, 0 4px 25px #cccccc, 0 50px 30px rgb(0 0 0 / 30%);
 }
@@ -38,7 +38,7 @@
     min-height: 397px;
     color: rgb(245, 241, 241);
     font-family: 'Oleo Script Swash Caps', cursive;
-    border: 2px solid #230355;
+    border: 2px solid #bebdbe;
     border-left: none;
     background-image: url('./../../../public/assets/capa.jpg');
     transform: rotate3d(1, 1, 1, 21deg);
@@ -71,7 +71,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #6610f2;
+    border: 2px solid #bebdbe;
     border-right: none;
     margin: -455px 0 0 158px;
     max-width: 251px;
