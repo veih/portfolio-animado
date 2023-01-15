@@ -40,7 +40,7 @@
     font-family: 'Oleo Script Swash Caps', cursive;
     border: 2px solid #bebdbe;
     border-left: none;
-    background-image: url('./../../../public/assets/capa.jpg');
+    background-image: url('https://veih.github.io/portfolio-animado/assets/capa.jpg');
     transform: rotate3d(1, 1, 1, 21deg);
     box-shadow: 0 1px 3px 
     #cccccc, 0 2px 15px 
@@ -76,7 +76,7 @@
     margin: -455px 0 0 158px;
     max-width: 251px;
     min-height: 407px;
-    background-color: rgb(245, 241, 241);
+    background-color: rgb(230, 228, 228);
     transform: rotate3d(1, 1, 1, 21deg);
     box-shadow: 0 1px 3px #cccccc, 0 2px 15px #cccccc, 0 3px 20px #cccccc, 0 4px 25px #cccccc, 0 50px 30px rgb(0 0 0 / 30%);
 }
@@ -97,8 +97,8 @@
     max-width: 251px;
     min-height: 398px;
     transform: rotate3d(1, 1, 1, 21deg);
-    background-color: rgb(252, 246, 246);
-    /*box-shadow: 0 1px 3px #cccccc, 0 2px 15px #cccccc, 0 3px 20px #cccccc, 0 4px 25px #cccccc, 0 50px 30px rgb(0 0 0 / 30%);*/
+    background-color: rgb(230, 228, 228);
+    box-shadow: rgb(0 0 0 / 30%);
 }
 
 .leaf span {
