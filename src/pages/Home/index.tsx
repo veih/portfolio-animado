@@ -38,8 +38,6 @@ export const Home = () => {
           Redes socias
         </div>
         <div className={id} onClick={handleFlip}>
-          <p> Nos tornamaos o que desejamos ser! <span id="header">😉</span> </p>
-          <h1 id="dev">Dev</h1>
         </div>
       </div>
     </main>
