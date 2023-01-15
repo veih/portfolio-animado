@@ -3,12 +3,12 @@ import { useState } from "react";
 
 import { Header } from './../../components/Headers'
 import { IconsRedesSocias } from './../../components/iconsRedesSocias'
-import { Title } from './../../components/Titles'
 
 import "./home.css";
 
 export const Home = () => {
   const [id, setId] = useState("frontCoverOut");
+  const [idPageOne, setIdPageOne] = useState('leaf');
 
   const handleFlip = () => {
     if (id === "frontCoverOutFlip") {
@@ -22,11 +22,11 @@ export const Home = () => {
     <main className="home">
       <div className="book">
         <div className="frontCoverFace"></div>
-        <div className="leaf"></div>
-        <div className="leaf"></div>
-        <div className="leaf"></div>
-        <div className="leaf"></div>
-        <div className="leaf">
+        <div className="leaf" >page 5</div>
+        <div className="leaf">page 4</div>
+        <div className="leaf">page 3</div>
+        <div className="leaf">page 2</div>
+        <div className="leaf" >
           <h6>Marcelo Evangelista de Oliveira</h6>
           <h6>Desenvolvedor Front - End</h6>
           <span >
