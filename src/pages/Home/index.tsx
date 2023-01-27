@@ -1,43 +1,78 @@
 import React from "react";
 import { useState } from "react";
 
-import { Header } from './../../components/Headers'
-import { IconsRedesSocias } from './../../components/iconsRedesSocias'
+import { Header } from "./../../components/Headers";
+import { IconsRedesSocias } from "./../../components/iconsRedesSocias";
 
 import "./home.css";
 
 export const Home = () => {
-  const [id, setId] = useState("frontCoverOut");
-  const [idPageOne, setIdPageOne] = useState('leaf');
+  const [frontCover, setFrontCover] = useState("cf1");
+  const [] = useState("");
 
-  const handleFlip = () => {
-    if (id === "frontCoverOutFlip") {
-      setId("frontCoverOut");
-    } else {
-      setId("frontCoverOutFlip");
-    }
-  };
+  const handleCoverFlip = () => {
+    setFrontCover((prevState) => {
+      if (prevState === "cf1") {
+        return "bc1";
+      }
+      return "cf1";
+    });
+  }
 
   return (
     <main className="home">
       <div className="book">
-        <div className="frontCoverFace"></div>
-        <div className="leaf" >page 5</div>
-        <div className="leaf">page 4</div>
-        <div className="leaf">page 3</div>
-        <div className="leaf">page 2</div>
-        <div className="leaf" >
-          <h6>Marcelo Evangelista de Oliveira</h6>
-          <h6>Desenvolvedor Front - End</h6>
-          <span >
-            <Header />
-          </span>
-          <span>
-            <IconsRedesSocias />
-          </span>
-          Redes socias
+        <div className="leaf" id="lcf">
+          <div className="front">
+            <div
+              id={frontCover}
+              className="front-content"
+              onClick={handleCoverFlip}
+            ></div>
+          </div>
+          <div className="back">
+          </div>
         </div>
-        <div className={id} onClick={handleFlip}>
+
+        <div className="leaf" id="p1">
+          <div className="front">
+            <div id="f1" className="front-content">
+              frente1
+            </div>
+          </div>
+          <div className="back">
+          </div>
+        </div>
+
+        <div className="leaf" id="p2">
+          <div className="front">
+            <div id="f2" className="front-content">
+              frente2
+            </div>
+          </div>
+          <div className="back">
+            <div id="b2" className="back-content">
+              traz2
+            </div>
+          </div>
+        </div>
+
+        <div className="leaf" id="p3">
+          <div className="front">
+            <div id="f3" className="front-content"></div>
+          </div>
+          <div className="back">
+            <div id="b3" className="back-content"></div>
+          </div>
+        </div>
+
+        <div className="leaf" id="lcb">
+          <div className="front">
+            <div id="fc2" className="front-content"></div>
+          </div>
+          <div className="back">
+            <div id="bc2" className="back-content"></div>
+          </div>
         </div>
       </div>
     </main>
